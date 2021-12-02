@@ -1,0 +1,7 @@
+input_text = input()
+input_text = input_text.replace('?', '')
+input_text = input_text.replace('!', '')
+input_text = input_text.replace('.', '')
+input_text = input_text.replace(',', '')
+input_text = input_text.lower()
+print(input_text)
